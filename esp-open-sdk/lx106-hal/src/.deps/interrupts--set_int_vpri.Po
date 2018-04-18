@@ -1,0 +1,21 @@
+interrupts--set_int_vpri.o: interrupts--set_int_vpri.c interrupts.c \
+ ../include/xtensa/config/core.h ../include/xtensa/hal.h \
+ ../include/xtensa/config/core-isa.h \
+ ../include/xtensa/config/core-matmap.h ../include/xtensa/config/tie.h \
+ ../include/xtensa/config/specreg.h ../include/xtensa/corebits.h
+
+interrupts.c:
+
+../include/xtensa/config/core.h:
+
+../include/xtensa/hal.h:
+
+../include/xtensa/config/core-isa.h:
+
+../include/xtensa/config/core-matmap.h:
+
+../include/xtensa/config/tie.h:
+
+../include/xtensa/config/specreg.h:
+
+../include/xtensa/corebits.h:
